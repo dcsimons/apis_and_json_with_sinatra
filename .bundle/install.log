@@ -1,0 +1,19 @@
+# Logfile created on 2014-01-15 16:13:18 -0800 by logger.rb/44203
+I, [2014-01-15T16:13:18.490557 #13007]  INFO -- : 0:  backports (3.4.0) from /usr/local/rvm/gems/ruby-2.1.0/specifications/backports-3.4.0.gemspec
+I, [2014-01-15T16:13:18.490887 #13007]  INFO -- : 0:  coderay (1.1.0) from /usr/local/rvm/gems/ruby-2.1.0/specifications/coderay-1.1.0.gemspec
+I, [2014-01-15T16:13:18.491177 #13007]  INFO -- : 0:  ffi (1.9.3) from /usr/local/rvm/gems/ruby-2.1.0/specifications/ffi-1.9.3.gemspec
+I, [2014-01-15T16:13:18.491445 #13007]  INFO -- : 0:  mime-types (1.25.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/mime-types-1.25.1.gemspec
+I, [2014-01-15T16:13:18.491709 #13007]  INFO -- : 0:  ethon (0.6.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/ethon-0.6.2.gemspec
+I, [2014-01-15T16:13:18.491953 #13007]  INFO -- : 0:  json (1.8.1) from /usr/local/rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/specifications/default/json-1.8.1.gemspec
+I, [2014-01-15T16:13:18.492220 #13007]  INFO -- : 0:  method_source (0.8.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/method_source-0.8.2.gemspec
+I, [2014-01-15T16:13:18.492480 #13007]  INFO -- : 0:  multi_json (1.8.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/multi_json-1.8.2.gemspec
+I, [2014-01-15T16:13:18.492741 #13007]  INFO -- : 0:  slop (3.4.7) from /usr/local/rvm/gems/ruby-2.1.0/specifications/slop-3.4.7.gemspec
+I, [2014-01-15T16:13:18.493005 #13007]  INFO -- : 0:  pry (0.9.12.4) from /usr/local/rvm/gems/ruby-2.1.0/specifications/pry-0.9.12.4.gemspec
+I, [2014-01-15T16:13:18.493286 #13007]  INFO -- : 0:  rack (1.5.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/rack-1.5.2.gemspec
+I, [2014-01-15T16:13:18.493555 #13007]  INFO -- : 0:  rack-protection (1.5.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/rack-protection-1.5.2.gemspec
+I, [2014-01-15T16:13:18.493819 #13007]  INFO -- : 0:  rack-test (0.6.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/rack-test-0.6.2.gemspec
+I, [2014-01-15T16:13:18.494067 #13007]  INFO -- : 0:  tilt (1.4.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/tilt-1.4.1.gemspec
+I, [2014-01-15T16:13:18.494323 #13007]  INFO -- : 0:  sinatra (1.4.4) from /usr/local/rvm/gems/ruby-2.1.0/specifications/sinatra-1.4.4.gemspec
+I, [2014-01-15T16:13:18.494588 #13007]  INFO -- : 0:  sinatra-contrib (1.4.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/sinatra-contrib-1.4.2.gemspec
+I, [2014-01-15T16:13:18.494836 #13007]  INFO -- : 0:  typhoeus (0.6.7) from /usr/local/rvm/gems/ruby-2.1.0/specifications/typhoeus-0.6.7.gemspec
+I, [2014-01-15T16:13:18.495073 #13007]  INFO -- : 0:  bundler (1.5.1) from /usr/local/rvm/gems/ruby-2.1.0@global/specifications/bundler-1.5.1.gemspec

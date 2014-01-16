@@ -21,11 +21,16 @@ post '/result' do
   response = Typhoeus.get("www.omdbapi.com", :params => {:s => search_str})
   result = JSON.parse(response.body)
 
+  movie_array = []
+  result["Search"].each do |movie|
+    movie_array << [movie["Year"], movie["Title"], movie["imdbID"]]
+  end
+  movie_array.sort!
+
   # Modify the html output so that a list of movies is provided.
   html_str = "<html><head><title>Movie Search Results</title></head><body><h1>Movie Results</h1>\n<ul>"
-  result["Search"].each do |movie|
-    html_str += "<li><a href=/poster/#{movie['imdbID']}>Title: #{movie['Title']}<br>Year: #{movie['Year']}</a></li><br>"
-    # html_str += "<li>Title: #{movie["Title"]}<br>Year: #{movie["Year"]}</li><br>"
+  movie_array.each do |movie|
+    html_str += "<li><a href=/poster/#{movie[2]}>Title: #{movie[1]}<br>Year: #{movie[0]}</a></li><br>"
   end
 
   html_str += "</ul></body></html>"
